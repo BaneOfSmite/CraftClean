@@ -19,7 +19,7 @@ public class Cmd implements CommandExecutor {
 				Main.craftclean = true;
 			} else if (args[0].equalsIgnoreCase("disable")) {
 				p.sendMessage(Main.getPrefix() + ChatColor.GRAY + " You Disabled CraftClean!");
-				Main.craftclean = true;
+				Main.craftclean = false;
 			}
 		}
 		return true;
